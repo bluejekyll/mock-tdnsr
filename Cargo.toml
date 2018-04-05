@@ -1,0 +1,10 @@
+[package]
+name = "mock_tdnsr"
+version = "0.1.0"
+authors = ["Benjamin Fry <benjaminfry@me.com>"]
+
+[dependencies]
+tokio-core = "0.1.5"
+trust-dns-proto = "0.3.2"
+trust-dns-resolver = "0.8.1"
+futures = "0.1.21"
